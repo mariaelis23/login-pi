@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Registro</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+  
+  <img src="imagem-logo (1).png" class="imagem-inicial">
+  <h1 style="color: #ffffff">Registre-se:</h1>
+  <form id="registroForm">   <!-- formulário com ID para identificação em JS/CSS-->
+    <label for="nome" style="color:white">Nome:</label>   <!-- para o -->
+    <input type="text" id="nome" required>
+    
+    <label for="email" style="color:white ">E-mail:</label>
+    <input type="email" id="email" required>
+    
+    <label for="senha" style="color:white">Senha:</label>
+    <input type="password" id="senha" required>
+
+    <label for="confirmarSenha" style="color:white">Confirmar senha:</label>
+    <input type="password" id="confirmarSenha" required>
+    
+    <button type="submit">Registrar
+        <a href="login.html"></a>
+    </button>
+  </form>
+  <script src="login.js"></script>
+</body>
+</html>
